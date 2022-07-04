@@ -1,139 +1,185 @@
-*{
-    margin: 0;
-    padding: 0;
-    font-family: "Poppins", serif;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", serif;
 }
 
-.container{
-    width: 1380px;
-    margin: 0 auto;
-    padding: 16px;
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 16px;
 }
 
-.col-6{
-    width: 50%;
+.col-6 {
+  width: 50%;
 }
 
-img{
-    max-width: 85%;
+img {
+  max-width: 85%;
 }
 
-.d-flex{
-    display: flex;
-    justify-content: space-between;
+.d-flex {
+  display: flex;
+  justify-content: space-between;
 }
 
-.orange{
-    color: orange;
+.orange {
+  color: orange;
 }
-
-
 
 /* =============Banner Section Start============ */
-.banner-section{
-    background-image: url(images/top-banner.png);
-    background-repeat: no-repeat;
-    padding: 50px 0;
+.banner-section {
+  width: 100%;
+  background-image: url(images/top-banner.png);
+  background-repeat: no-repeat;
+  padding: 50px 0;
 }
 
-.banner-section h1{
-    font-size: 50px;
-    font-weight: 500;
-    line-height: 100px;
-    margin: 60px 0;
+.banner-section h1 {
+  font-size: 50px;
+  font-weight: 500;
+  line-height: 100px;
+  margin: 60px 0;
 }
 
-h3{
-    font-size: 26px;
-    font-weight: 400;
-    margin-bottom: 20px;
+h3 {
+  font-size: 26px;
+  font-weight: 400;
+  margin-bottom: 20px;
 }
 
-
-.hire-btn{
-    text-decoration: none;
-    padding: 10px 40px;
-    background-image: linear-gradient(orange, tomato);
-    display: inline-block;
-    color: #ffffff;
-    border-radius: 5px;
-    margin-top: 20px;
+.banner-section p {
+  padding-right: 30px;
 }
 
-.developer-img{
-    text-align: right;
+.hire-btn {
+  text-decoration: none;
+  padding: 10px 40px;
+  background-image: linear-gradient(orange, tomato);
+  display: inline-block;
+  color: #ffffff;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.developer-img {
+  text-align: right;
 }
 
 /* ========Banner Section End=========== */
 
-.about-section{
-    background-image: url(images/dream-bg.png);
-    background-repeat: no-repeat;
-    background-position: right center;
-    padding: 50px  0;
+.about-section {
+  width: 100%;
+  background-image: url(images/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right center;
+  padding: 50px 0;
 }
 
-.about-decription{
-    transform: translateY(20%);
+.about-description {
+  transform: translateY(20%);
+  margin-left: 50px;
 }
 
-.about-decription h1{
-    font-size: 40px;
-    font-weight: 400;
-    margin: 30px 0;
+.about-description h1 {
+  font-size: 40px;
+  font-weight: 400;
+  margin: 30px 0;
 }
-
-
-
-
 
 /* Experience Section Start */
-.experience-section{
-    background-image: url(images/exp-bg.png);
-    background-repeat: no-repeat;
-    background-position: left center;
-    padding-bottom: 50px;
+.experience-section {
+  width: 100%;
+  background-image: url(images/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left center;
+  padding-bottom: 50px;
 }
 
-.experience-section .ex-title{
-    font-size: 40px;
-    font-weight: 400;
-    margin: 50px 0;
+.experience-section .ex-title {
+  font-size: 40px;
+  font-weight: 400;
+  margin: 50px 0;
 }
 
-.full-stack{
-    margin-right: 50px;
-    border-left: 5px solid tomato;
-    padding: 50px;
-    box-shadow: 5px 7px 40px grey;
-    border-radius: 5px;
-    height: 350px;
-    
+.full-stack {
+  margin-right: 50px;
+  border-left: 5px solid tomato;
+  padding: 50px;
+  box-shadow: 5px 7px 40px grey;
+  border-radius: 5px;
 }
 
-.full-stack h1,.junior-stack h1{
-    font-size: 35px;
-    font-weight: 400;
-    margin-bottom: 20px;
+.full-stack h1,
+.junior-stack h1 {
+  font-size: 35px;
+  font-weight: 400;
+  margin-bottom: 20px;
 }
 
-.junior-stack{
-    margin-left: 50px;
-    border-left: 5px solid blue;
-    padding: 50px;
-    box-shadow: 5px 7px 40px grey;
-    border-radius: 5px;
-    height: 350px;
-    
+.junior-stack {
+  margin-left: 50px;
+  border-left: 5px solid blue;
+  padding: 50px;
+  box-shadow: 5px 7px 40px grey;
+  border-radius: 5px;
 }
 
 /* Experience Section End */
 
 /* Footer */
-footer p{
-    text-align: center;
-    padding: 16px 0;
+footer p {
+  text-align: center;
+  padding: 16px 0;
 }
 
+/* Responsive */
 
+@media only screen and (max-width: 800px) {
+  .container {
+    text-align: center;
+  }
+  .full-width {
+    width: 100%;
+  }
 
+  .d-block {
+    display: block;
+  }
+
+  .banner-section h1 {
+    font-size: 30px;
+    line-height: 60px;
+    margin-bottom: 50px;
+  }
+
+  .order-1 {
+    order: 1;
+  }
+
+  h3 {
+    font-size: 22px;
+  }
+
+  .banner-section p {
+    padding-right: 0px;
+  }
+
+  .developer-img {
+    margin-top: 60px;
+    text-align: center;
+  }
+
+  .about-description {
+    margin-left: 0;
+  }
+
+  .full-stack {
+    margin-right: 0;
+  }
+
+  .junior-stack {
+    margin-left: 0;
+    margin-top: 20px;
+  }
+}
