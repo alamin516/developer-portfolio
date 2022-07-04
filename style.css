@@ -176,10 +176,12 @@ footer p {
 
   .full-stack {
     margin-right: 0;
+    padding: 20px;
   }
 
   .junior-stack {
     margin-left: 0;
     margin-top: 20px;
+    padding: 20px;
   }
 }
